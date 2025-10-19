@@ -1,6 +1,7 @@
 see the backend/index.ts file. The user should be typed but it is not. Got some weird type on the findUniqueOrThrow when hovering.
-if you add @prisma/client into the packages/db deps types will work just fine as soon as you remove they break.
 
-- im fairly rookie and i scoured the internet for guidance but found none.
+- adding @prisma/client into the packages/db deps fixes everything just fine but as soon as you remove types break break.
+
+- im fairly rookie and i scoured the internet for guidance but found none. - I am trying run prisma on lambda basically
 
 - I followed the prisma guide here for non-rust setup: https://www.prisma.io/docs/orm/prisma-client/setup-and-configuration/no-rust-engine
