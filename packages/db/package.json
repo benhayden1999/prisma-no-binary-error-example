@@ -13,7 +13,6 @@
   "packageManager": "pnpm@10.7.0",
   "dependencies": {
     "@prisma/adapter-pg": "^6.17.1",
-    "@prisma/client": "^6.17.1",
     "prisma": "^6.17.1"
   },
   "exports": {
