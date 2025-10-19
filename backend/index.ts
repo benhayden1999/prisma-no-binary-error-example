@@ -1,3 +1,3 @@
 import { prisma } from "db";
 
-const some = await prisma.user.findUniqueOrThrow({ where: { id: "123" } });
+const user = await prisma.user.findUniqueOrThrow({ where: { id: "123" } });
